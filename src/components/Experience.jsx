@@ -8,7 +8,7 @@ const Experience = () => {
         <div className="mb-8 flex flex-wrap lg:justify-center">
           <div className="w-full  lg:w-1/2 px-8 sm:p-8">
             <p className="mb-2 text-sm text-neutral-300 w-3/4 text-start lg:text-end">
-              March 2023 - April 2024
+              August 2022 - April 2024
             </p>
           </div>
           <div className="w-full lg:w-1/2 px-8 sm:p-8">
@@ -31,7 +31,7 @@ const Experience = () => {
         <div className="mb-8 flex flex-wrap lg:justify-center">
           <div className="w-full  lg:w-1/2 px-8 sm:p-8">
             <p className="mb-2 text-sm text-neutral-300 w-3/4 text-start lg:text-end">
-              July 2024 - July 2025
+              June 2024 - September 2025
             </p>
           </div>
           <div className="w-full lg:w-1/2 px-8 sm:p-8">
