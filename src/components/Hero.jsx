@@ -17,14 +17,14 @@ const Hero = () => {
 
   return (
     <div className="h-[70vh] border-b border-neutral-900 pb-4 lg:mb-35">
-      <div className="flex flex-wrap">
+      <div className="flex flex-col lg:flex-row flex-wrap">
         <div className="w-full lg:w-1/2">
-          <div className="flex flex-col item-center lg:items-start mx-16 ">
+          <div className="flex flex-col items-center lg:items-start px-4 sm:px-8 lg:px-16">
             <motion.h1
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-16 text-4xl font-thin tracking-tight lg:mt-16 lg:text-6xl"
+              className="pb-8 text-3xl sm:text-4xl lg:text-6xl font-thin tracking-tight lg:mt-16"
             >
               Mohammed Aasim
             </motion.h1>
@@ -32,7 +32,7 @@ const Hero = () => {
               variants={container(0.5)}
               initial="hidden"
               animate="visible"
-              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text tracking-tight text-3xl text-transparent"
+              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text tracking-tight text-2xl sm:text-3xl text-transparent"
             >
               Front-End Developer
             </motion.span>
@@ -40,7 +40,7 @@ const Hero = () => {
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl py-6 font-light tracking-tight "
+              className="my-2 max-w-xl py-6 font-light tracking-tight text-sm sm:text-base"
             >
               "I am a passionate Front-End Developer with a proven track record
               in building user-centric web applications using React.js. With
@@ -58,7 +58,7 @@ const Hero = () => {
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
-              className="h-1/2 w-1/2 rounded-3xl"
+              className="w-1/2 h-1/2 max-w-[300px] max-h-[300px] sm:max-w-[350px] sm:max-h-[350px] lg:max-w-none lg:max-h-none rounded-3xl object-cover"
               src={proPic}
               alt="profile picture"
             />

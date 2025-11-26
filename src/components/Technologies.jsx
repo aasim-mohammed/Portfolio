@@ -6,6 +6,7 @@ import { RiCss3Line } from "react-icons/ri";
 import { RiTailwindCssLine } from "react-icons/ri";
 import { SiWireshark } from "react-icons/si";
 import { DiGit } from "react-icons/di";
+import { SiTypescript } from "react-icons/si";
 
 const Technologies = () => {
   return (
@@ -56,6 +57,20 @@ const Technologies = () => {
             title="JavaScript"
           />
         </div>
+
+        <div
+          onClick={() =>
+            window.open("https://www.typescriptlang.org/", "_blank")
+          }
+          className="rounded-2xl border-4 border-neutral-800 p-4 hover:border-neutral-400 transition-all duration-300 hover:cursor-pointer"
+        >
+          <SiTypescript
+            className="text-7xl"
+            style={{ color: "#3178C6" }}
+            title="TypeScript"
+          />
+        </div>
+
         <div
           onClick={() => (
             (window.location.href = "https://react.dev/"), "_blank"
