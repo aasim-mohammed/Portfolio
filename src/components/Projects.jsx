@@ -8,7 +8,6 @@ const Projects = () => {
       <h2 className="my-20 text-center text-4xl">Projects</h2>
       <div>
         <div className="flex flex-wrap lg:justify-center">
-          {/* <div className="w-full lg:w-1/4"> */}
           <div className="w-full lg:w-1/4 flex justify-center lg:justify-start">
             <img
               className="rounded-3xl mb-6 cursor-pointer"
@@ -47,7 +46,6 @@ const Projects = () => {
       </div>
       <div>
         <div className="flex flex-wrap lg:justify-center mt-16">
-          {/* <div className="w-full lg:w-1/4"> */}{" "}
           <div className="w-full lg:w-1/4 flex justify-center lg:justify-start">
             <img
               className="rounded-3xl mb-6 cursor-pointer"
