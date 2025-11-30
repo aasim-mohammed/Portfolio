@@ -64,6 +64,9 @@ const Experience = () => {
                 JavaScript
               </span>
               <span className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-md text-purple-400">
+                TypeScript
+              </span>
+              <span className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-md text-purple-400">
                 React
               </span>
               <span className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-md text-purple-400">
