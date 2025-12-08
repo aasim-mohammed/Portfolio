@@ -26,7 +26,7 @@ const Hero = () => {
               animate="visible"
               className="pb-8 text-3xl sm:text-4xl lg:text-6xl font-thin tracking-tight lg:mt-16"
             >
-              Mohammed Aasim
+              Aasim Mohammed
             </motion.h1>
             <motion.span
               variants={container(0.5)}

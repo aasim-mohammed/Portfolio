@@ -1,6 +1,7 @@
 import React from "react";
 import weather from "../assets/weather.jpg";
 import snake from "../assets/snakelogo.png";
+import wsc from "../assets/wsc.png";
 
 const Projects = () => {
   return (
@@ -49,6 +50,48 @@ const Projects = () => {
           <div className="w-full lg:w-1/4 flex justify-center lg:justify-start">
             <img
               className="rounded-3xl mb-6 cursor-pointer"
+              src={wsc}
+              width={150}
+              height={150}
+              alt="wsc"
+              onClick={() =>
+                window.open(
+                  "https://github.com/aasim-mohammed/website-security-status",
+                  "_blank"
+                )
+              }
+            />
+          </div>
+          <div className="w-full max-w-xl lg:w-3/4">
+            <h6 className="mb-2 font-semibold">
+              Website Security Status (Browser Extension)
+            </h6>
+            <p className="mb-4 text-neutral-400">
+              Developed a browser extension that evaluates the safety of any
+              website in real time by scanning it through the VirusTotal
+              database. The extension detects whether a visited website is safe
+              or unsafe and displays a simple, user-friendly security status
+              directly in the browser toolbar.
+            </p>
+            <span className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-md text-purple-400">
+              React
+            </span>
+            <span className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-md text-purple-400">
+              Tailwind CSS
+            </span>
+            <span className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-md text-purple-400">
+              VirusTotal API
+            </span>
+            <span className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-md text-purple-400">
+              Chrome Extension APIs (Manifest v3)
+            </span>
+          </div>
+        </div>
+
+        <div className="flex flex-wrap lg:justify-center mt-16">
+          <div className="w-full lg:w-1/4 flex justify-center lg:justify-start">
+            <img
+              className="rounded-3xl mb-6 cursor-pointer"
               src={weather}
               width={150}
               height={150}
@@ -68,7 +111,7 @@ const Projects = () => {
               with up-to-date weather information for any location worldwide.
               The app features a clean and intuitive user interface, making it
               easy for users to check the current weather conditions, forecast,
-              and other weather-related details
+              and other weather-related details.
             </p>
             <span className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-md text-purple-400">
               React
