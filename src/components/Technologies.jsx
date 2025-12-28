@@ -14,30 +14,30 @@ const Technologies = () => {
       <h2 className="my-20 text-center text-4xl">Technologies</h2>
       <div className="flex flex-wrap items-center justify-center gap-4">
         <div
-          onClick={() => (
-            (window.location.href =
-              "https://developer.mozilla.org/en-US/docs/Web/HTML"),
-            "_blank"
-          )}
-          className="rounded-2xl border-4 border-neutral-800 p-4 hover:border-neutral-400 transition-all duration-300 hover:cursor-pointer"
+          onClick={() =>
+            window.open(
+              "https://developer.mozilla.org/en-US/docs/Web/HTML",
+              "_blank"
+            )
+          }
+          className="rounded-2xl border-4 border-neutral-800 p-4 transition-all duration-300 hover:cursor-pointer hover:border-orange-600"
         >
           <RiHtml5Line className="text-7xl text-orange-600" title="HTML5" />
         </div>
         <div
-          onClick={() => (
-            (window.location.href =
-              "https://developer.mozilla.org/en-US/docs/Web/CSS"),
-            "_blank"
-          )}
-          className="rounded-2xl border-4 border-neutral-800 p-4 hover:border-neutral-400 transition-all duration-300 hover:cursor-pointer"
+          onClick={() =>
+            window.open(
+              "https://developer.mozilla.org/en-US/docs/Web/CSS",
+              "_blank"
+            )
+          }
+          className="rounded-2xl border-4 border-neutral-800 p-4 transition-all duration-300 hover:cursor-pointer hover:border-blue-600"
         >
           <RiCss3Line className="text-7xl text-blue-600" title="CSS3" />
         </div>
         <div
-          onClick={() => (
-            (window.location.href = "https://tailwindcss.com/"), "_blank"
-          )}
-          className="rounded-2xl border-4 border-neutral-800 p-4 hover:border-neutral-400 transition-all duration-300 hover:cursor-pointer"
+          onClick={() => window.open("https://tailwindcss.com/", "_blank")}
+          className="rounded-2xl border-4 border-neutral-800 p-4  transition-all duration-300 hover:cursor-pointer hover:border-teal-400"
         >
           <RiTailwindCssLine
             className="text-7xl text-teal-400"
@@ -45,12 +45,13 @@ const Technologies = () => {
           />
         </div>
         <div
-          onClick={() => (
-            (window.location.href =
-              "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Adding_interactivity"),
-            "_blank"
-          )}
-          className="rounded-2xl border-4 border-neutral-800 p-4 hover:border-neutral-400 transition-all duration-300 hover:cursor-pointer"
+          onClick={() =>
+            window.open(
+              "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+              "_blank"
+            )
+          }
+          className="rounded-2xl border-4 border-neutral-800 p-4 transition-all duration-300 hover:cursor-pointer hover:border-yellow-500"
         >
           <RiJavascriptLine
             className="text-7xl text-yellow-500"
@@ -62,7 +63,7 @@ const Technologies = () => {
           onClick={() =>
             window.open("https://www.typescriptlang.org/", "_blank")
           }
-          className="rounded-2xl border-4 border-neutral-800 p-4 hover:border-neutral-400 transition-all duration-300 hover:cursor-pointer"
+          className="rounded-2xl border-4 border-neutral-800 p-4 transition-all duration-300 hover:border-[#3178C6] hover:cursor-pointer"
         >
           <SiTypescript
             className="text-7xl"
@@ -72,18 +73,14 @@ const Technologies = () => {
         </div>
 
         <div
-          onClick={() => (
-            (window.location.href = "https://react.dev/"), "_blank"
-          )}
-          className="rounded-2xl border-4 border-neutral-800 p-4 hover:border-neutral-400 transition-all duration-300 hover:cursor-pointer"
+          onClick={() => window.open("https://reactjs.org/", "_blank")}
+          className="rounded-2xl border-4 border-neutral-800 p-4 transition-all duration-300 hover:cursor-pointer hover:border-cyan-500"
         >
           <RiReactjsLine className="text-7xl text-cyan-500" title="React" />
         </div>
         <div
-          onClick={() => (
-            (window.location.href = "https://www.wireshark.org/"), "_blank"
-          )}
-          className="rounded-2xl border-4 border-neutral-800 p-4 hover:border-neutral-400 transition-all duration-300 hover:cursor-pointer"
+          onClick={() => window.open("https://www.wireshark.org/", "_blank")}
+          className="rounded-2xl border-4 border-neutral-800 p-4 transition-all duration-300 hover:border-[#1679A7] hover:cursor-pointer"
         >
           <SiWireshark
             className="text-7xl"
@@ -92,10 +89,8 @@ const Technologies = () => {
           />
         </div>
         <div
-          onClick={() => (
-            (window.location.href = "https://git-scm.com/"), "_blank"
-          )}
-          className="rounded-2xl border-4 border-neutral-800 p-4 hover:border-neutral-400 transition-all duration-300 hover:cursor-pointer"
+          onClick={() => window.open("https://git-scm.com/", "_blank")}
+          className="rounded-2xl border-4 border-neutral-800 p-4 hover:border-[#F1502F] transition-all duration-300 hover:cursor-pointer"
         >
           <DiGit
             className="text-7xl"
