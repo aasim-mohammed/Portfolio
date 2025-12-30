@@ -39,7 +39,7 @@ const Navbar = () => {
         <FaLinkedin
           onClick={() =>
             window.open(
-              "https://www.linkedin.com/in/mohammed-aasim-70176223b/",
+              "https://www.linkedin.com/in/aasim-mohammed-70176223b/",
               "_blank"
             )
           }
