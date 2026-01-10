@@ -11,7 +11,11 @@ const Projects = () => {
         <div className="flex flex-wrap lg:justify-center">
           <div className="w-full lg:w-1/4 flex justify-center lg:justify-start">
             <img
-              className="rounded-3xl mb-6 cursor-pointer"
+              className="mb-6 cursor-pointer rounded-3xl
+                         transition-all duration-300 ease-out
+                         hover:scale-105
+                         hover:-translate-y-2
+                         hover:shadow-[0_0_25px_rgba(168,85,247,0.6)]"
               src={snake}
               width={150}
               height={150}
@@ -49,7 +53,11 @@ const Projects = () => {
         <div className="flex flex-wrap lg:justify-center mt-16">
           <div className="w-full lg:w-1/4 flex justify-center lg:justify-start">
             <img
-              className="rounded-3xl mb-6 cursor-pointer"
+              className="mb-6 cursor-pointer rounded-3xl
+                         transition-all duration-300 ease-out
+                         hover:scale-105
+                         hover:-translate-y-2
+                         hover:shadow-[0_0_25px_rgba(168,85,247,0.6)]"
               src={wsc}
               width={150}
               height={150}
@@ -91,7 +99,11 @@ const Projects = () => {
         <div className="flex flex-wrap lg:justify-center mt-16">
           <div className="w-full lg:w-1/4 flex justify-center lg:justify-start">
             <img
-              className="rounded-3xl mb-6 cursor-pointer"
+              className="mb-6 cursor-pointer rounded-3xl
+                         transition-all duration-300 ease-out
+                         hover:scale-105
+                         hover:-translate-y-2
+                         hover:shadow-[0_0_25px_rgba(168,85,247,0.6)]"
               src={weather}
               width={150}
               height={150}
